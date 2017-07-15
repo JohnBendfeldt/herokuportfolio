@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>About</title>
+	<link rel="stylesheet" type="text/css" href="https://johnbendfeldt.github.io/assets/css/style.css">
+</head>
+<div id="main-menu">
+	<header>
+		<div class="banner">
+			<a href="/"><h1>John Bendfeldt</h1></a>
+<!-- Navigational links. -->
+			<nav>
+				<a href="/" class="active">About</a>
+				<a href="/portfolio">Portfolio</a>
+				<a href="/contact">Contact</a>
+			</nav>
+		</div>
+	</header>
+</div>
+<body>
+<!-- Larger content box -->
+	<div class="container">
+		<section class="content">
+			<h2>About Me</h2>
+			<br>
+			<img src="https://johnbendfeldt.github.io/assets/images/austin.gif" id="face" />
+			<div class="rotate-container" ontouchstart="this.classList.toggle('hover');">
+				<div class="rotate">
+					<div class="front">
+						<img src="https://johnbendfeldt.github.io/assets/images/myface.jpg" id="face" class="boxShadow" />
+					</div>
+
+					<div class="back">
+						<img src="https://johnbendfeldt.github.io/assets/images/Andi_and_me.jpg" id="face" class="boxShadow" />
+					</div>
+				</div>
+			</div>
+			<p>I love people and working with technology. Through years of managing at Domino’s I saw how apps and technology have the ability to improve lives, strengthen connections and build stronger businesses. I moved to Austin in 2015 to pursue my passion for web development. I want to use my communication and leadership skills to help drive innovation in tech and web development.</p>
+		</section>
+<!-- Connect with me box -->
+		<section class="connect">
+			<h3>Connect with Me</h3>
+			<br>
+			<a href="https://github.com/johnbendfeldt" target="_blank">
+				<img src="https://johnbendfeldt.github.io/assets/images/Github-icon.png" class="icons" alt="Github-icon" title="GitHub" />
+			</a>
+			<a href="https://www.linkedin.com/in/johnbendfeldt/" target="_blank">
+				<img src="https://johnbendfeldt.github.io/assets/images/linkedin-icon.png" class="icons" alt="linkedin-icon" title="LinkedIn" />
+			</a>
+			<a href="http://stackoverflow.com/users/7700030/john-bendfeldt" target="_blank">
+				<img src="https://johnbendfeldt.github.io/assets/images/stackoverflow-icon.png" class="icons" alt="stackoverflow-icon" title="Stackoverflow" />
+			</a>
+		</section>
+	</div>
+</body>
+<footer>
+	© Copywrite 2017 John Bendfeldt
+</footer>
+<!-- makes the header transparent on scroll -->
+<script type="text/javascript">
+	window.addEventListener('scroll', function () {
+  	document.body.classList[
+    window.scrollY > 20 ? 'add': 'remove'
+  ]('scrolled');
+});
+</script>
+</html>
